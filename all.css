@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #D2B48C;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #B8860B;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    color: #8B4513;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-size: 2em;
+    padding: 25px 0 0 200px ;
+}
+
+a:hover {
+    color: pink;
+    background-color:darkviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+p + p {
+    text-align: right;
+    padding-right: 200px;
+}
